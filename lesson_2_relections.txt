@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+.git file is created that keep track of history of changes. We need to because if we want to keep track of changes.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+SG is the middle layer between working directory and repository. We add files there to commit to the repository at once.
