@@ -2,3 +2,5 @@ What happens when you initialize a repository? Why do you need to do it?
 .git file is created that keep track of history of changes. We need to because if we want to keep track of changes.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 SG is the middle layer between working directory and repository. We add files there to commit to the repository at once.
+How can you use the staging area to make sure you have one commit per logical change?
+First add files to staging area that shows connnection in their logical change. Then from staging area commit.
