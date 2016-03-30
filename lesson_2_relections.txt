@@ -4,3 +4,5 @@ How is the staging area different from the working directory and the repository?
 SG is the middle layer between working directory and repository. We add files there to commit to the repository at once.
 How can you use the staging area to make sure you have one commit per logical change?
 First add files to staging area that shows connnection in their logical change. Then from staging area commit.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When we want to separately make changes with affecting the main project then we use branches. 
