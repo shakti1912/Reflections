@@ -6,3 +6,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 First add files to staging area that shows connnection in their logical change. Then from staging area commit.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When we want to separately make changes with affecting the main project then we use branches. 
+How do the diagrams help you visualize the branch structure?
+It shows what can be reachable from one point.
+Delete branch one merged with another by git branch -d coins(branch name)
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merging adds all the features of the merging branches into one. Because after merging the branch merged into (master) becomes more relevant and it can reach to any commit even done by the other merging branch(coins)
