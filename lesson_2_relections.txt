@@ -11,3 +11,6 @@ It shows what can be reachable from one point.
 Delete branch one merged with another by git branch -d coins(branch name)
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 merging adds all the features of the merging branches into one. Because after merging the branch merged into (master) becomes more relevant and it can reach to any commit even done by the other merging branch(coins)
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros - git merges for us and if there is conflict it lets us know so we can meet and figure out what we need to put in the final part.
+Cons - manually will take lot of time.
